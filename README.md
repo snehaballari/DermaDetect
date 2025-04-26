@@ -1,8 +1,6 @@
 # DermaDetect
 An AI-based tool for preliminary diagnosis of dermatological conditions using image processing.
 
-This README introduces **DermaDetect**, a PyTorch-based skin lesion classification tool served through a streamlined Gradio interface. Below you’ll find detailed sections on features, installation, usage, architecture, data, performance, and contribution guidelines—organized per GitHub best practices to get you up and running quickly.
-
 ## Features  
 DermaDetect provides instant, browser-based inference on uploaded lesion images using a fine-tuned MobileNet V2 backbone in PyTorch  ([MobileNet v2 - PyTorch](https://pytorch.org/hub/pytorch_vision_mobilenet_v2/?utm_source=chatgpt.com)).  
 It distinguishes five clinically relevant classes—Actinic Keratosis, Alopecia, Chondrodermatitis Nodularis, Keloids, and Molluscum Contagiosum—trained on the DermNet Dataset.
